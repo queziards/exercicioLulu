@@ -1,0 +1,150 @@
+/*estilizaçao do corpo da pagina*/
+body{
+margin: 0;
+padding: 0;
+border: 0;
+line-height: 1;
+font-family: 
+<div _ngcontent-lpj-c175="" dir="auto" class="text-sample">ZWAŻYWSZY, że nieposzanowanie i nieprzestrzeganie praw człowieka</div>;
+}
+/*estilização da sessao HEADER da pagina*/
+header{
+    background: #E797A9;
+    padding: 20px 0; 
+}
+
+/*estilização da sessao NAV(navegaçao) da pagina*/
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+color:rgba(185, 5, 155, 0.979);
+font-weight: bold;
+font-size: 22px;
+text-decoration: none;
+}
+nav a:hover{
+    color:rgb(253, 97, 193);
+    text-decoration: underline;
+}
+/*estilização das listas da pagina*/
+ul{
+    list-style: none;
+}
+/*estilização do Logotipo*/
+.logo_caixa{
+    width:1800px;
+    position:relative;
+    margin:auto;
+}
+/*banner*/
+.banner{
+    width: 100%
+}
+.logo{
+    width:10%;
+    margin:0 0 0 40px;
+}
+/*estilização do banner*/
+.banner{
+    width: 100%;
+}
+/*estilização da area "sobre"*/
+.titulo-principal{
+    text-align: center;
+    font-size: 2em; /* dobro da fonte padrão*/
+    margin: 0 0 1em;
+    clear: left;
+}
+.principal{
+    width: 100%;
+    margin: 0 auto;
+    padding: 3em 0;
+    background: #E797A9;
+    text-align: justify;
+}
+
+#caixa-principal{
+    text-align: justify;
+    margin-left: 320px;
+
+}
+
+.img-principal{
+    position: absolute;
+    margin-left: 90px;
+}
+
+.texto-principal{
+    height: 80px;
+    position: relative;
+    margin-left: 200px;
+}
+
+
+.principal strong{
+   font-weight: bold;
+}
+.principal em {
+    font-style: italic;
+}
+.donuts {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+/*estilização do mapa*/
+.map {
+    padding:3em 0;
+    background: linear-gradient(#E797A9)
+}
+.mapa-conteudo {
+    width: 100%;
+    margin: 0 auto;
+}
+.map p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+/*area beneficios e video*/
+.beneficios{
+    padding: 3em0;
+    background: #ffbb00;
+}
+.conteudo-beneficio {
+    width: 640px;
+    margin: 0 auto;
+}
+.lista-beneficio {
+    width: 50%
+    display: inline-block;
+    vertical-align:top;
+}
+.img_beneficio {
+width: 50%;
+opacity: 1;
+transition: 400ms;
+box-shadow: 10px 10px 5px 0px #E797A9;
+}
+.img_beneficios:hover{
+    opacity: 0.7;
+}
+itens{
+    line-height: 1.5;
+}
+.itens:before{
+    content: "&";
+}
+.itens:first-child{
+    font-weight: bold;
+}
+.video{
+    width: 560px;
+}
